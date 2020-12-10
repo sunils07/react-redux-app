@@ -1,0 +1,86 @@
+@import "./styles/variables";
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: $body-bg-color;
+}
+
+.no-gutter {
+  padding: 0;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.flex {
+  display: flex;
+  flex: 1;
+}
+
+.flex-full-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.gutter-0 {
+  padding: 0;
+}
+
+.gutter-2x {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.page-header {
+  padding-top: 1em;
+
+  .page-title {
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .page-subtitle {
+    font-weight: 300;
+    font-size: 12px;
+  }
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.avtar {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+}
+
+.spacer-3 {
+  margin-top: 3em;
+}
+
+.plain-toggler,
+.plain-toggler:hover,
+.plain-toggler:focus,
+.plain-toggler:active {
+  background-color: transparent !important;
+  border: unset !important;
+  color: $black-color !important;
+  outline: unset !important;
+  box-shadow: unset !important;
+  padding: 0 !important;
+  width: auto !important;
+}

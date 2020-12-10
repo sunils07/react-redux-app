@@ -1,0 +1,6 @@
+@import "../../styles/variables";
+
+.app-card {
+    box-shadow: 0px 4px 4px 0px $card-shadow-color;
+    border-color: $white-color;
+}
